@@ -20,7 +20,7 @@ If not using VS Code or and your IDE does not have a LSP,
 prettier (format) and eslinting (lint) is available
 
 ```
-format": "prettier --write  \"src/**/*.{js,jsx,ts,tsx}\"",
+npm run format
 npm run lint
 ```
 
