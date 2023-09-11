@@ -2,3 +2,25 @@
   text-align: center;
   padding: 5rem 1rem;
 }
+
+button {
+  font-size: 16px;
+  padding: 0 24px;
+  height: 60px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: outline 0.2s linear;
+}
+
+button {
+  font-size: 16px;
+  padding: 0 24px;
+  height: 60px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: outline 0.2s linear;
+}
+
+button:disabled {
+  opacity: 0.35;
+}
