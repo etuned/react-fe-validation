@@ -2,6 +2,47 @@
 
 React | Vite | Typescript | Formik | Storybook
 
+### Getting started
+
+First install the project packages
+
+```
+npm install
+```
+
+To run the development server
+
+```
+npm run dev
+```
+
+If not using VS Code or and your IDE does not have a LSP,
+prettier (format) and eslinting (lint) is available
+
+```
+format": "prettier --write  \"src/**/*.{js,jsx,ts,tsx}\"",
+npm run lint
+```
+
+Storybook for local
+
+```
+npm run stroybook
+```
+
+If a build for Storybook is required
+
+```
+npm run build-storybook
+```
+
+To create Production Builds and preview on local
+
+```
+npm run build
+npm run preview
+```
+
 ### The following User story was created
 
 - User can input a username, password, and password confirmation
