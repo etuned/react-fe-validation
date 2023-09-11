@@ -13,7 +13,7 @@ const onSubmit = async (
   await new Promise((resolve) => setTimeout(resolve, 500));
   alert(
     `User Information: ${JSON.stringify(values, null, 2)}                
-    the next step is to hash the password!`
+    Should be a modal and the next step is to hash the password!`
   );
   actions.resetForm();
 };

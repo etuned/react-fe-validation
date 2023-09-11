@@ -28,8 +28,5 @@ form label {
 .buttons-container button[type="submit"] {
   background-color: dodgerblue;
   color: white;
-}
-
-button:disabled {
-  opacity: 0.35;
+  border-radius: 5px;
 }
