@@ -27,7 +27,7 @@ npm run lint
 Storybook for local
 
 ```
-npm run stroybook
+npm run storybook
 ```
 
 If a build for Storybook is required
