@@ -1,0 +1,35 @@
+form {
+  width: 95%;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+form label {
+  font-size: 1rem;
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  margin: 2rem 0 0.2rem;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 24px;
+  flex-direction: row-reverse;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.buttons-container button[type="reset"] {
+  background-color: transparent;
+  border-radius: 5px;
+}
+
+.buttons-container button[type="submit"] {
+  background-color: dodgerblue;
+  color: white;
+}
+
+button:disabled {
+  opacity: 0.35;
+}
