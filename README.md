@@ -1,4 +1,4 @@
-# React Frontend Registaration Form with Validation
+# React Frontend Registration Form with Validation
 
 React | Vite | Typescript | Formik | Storybook
 
