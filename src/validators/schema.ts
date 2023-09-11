@@ -9,7 +9,7 @@ export const userRegistrationSchema = yup.object().shape({
     .string()
     .matches(passwordPattern, {
       message:
-        "Must be 6 characters, 1 upper case letter, 1 lower case letter, 1 numeric digit",
+        "Must have 6 characters, 1 upper case letter, 1 lower case letter, 1 numeric digit",
     })
     .required("Required"),
   confirmedPassword: yup
